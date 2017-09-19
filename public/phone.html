@@ -1,10 +1,540 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    <h1>这里是手机页面</h1>
-</body>
+<!doctype html>
+<html class="no-js">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+		<title>链融</title>
+
+		<!-- Set render engine for 360 browser -->
+		<meta name="renderer" content="webkit">
+
+		<!-- No Baidu Siteapp-->
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+		<link rel="icon" type="image/png" href="assets/i/favicon.png">
+
+		<!-- Add to homescreen for Chrome on Android -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+
+		<!-- Add to homescreen for Safari on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+		<link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+
+		<!-- Tile icon for Win8 (144x144 + tile color) -->
+		<meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+		<meta name="msapplication-TileColor" content="#0e90d2">
+
+		<link rel="stylesheet" href="assets/css/amazeui.min.css">
+		<link rel="stylesheet" href="assets/css/app.css">
+
+		<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+
+		<link rel="stylesheet" href="assets/css/phoneIndex.css">
+
+		<link rel="stylesheet" href="assets/css/swiper.css">
+	</head>
+
+	<body>
+		<header class="am-topbar">
+			<h1 class="am-topbar-brand">
+    			<a href="#">Amaze UI</a>
+  			</h1>
+
+			<button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+
+			<div class="am-collapse am-topbar-collapse" id="doc-topbar-collapse">
+				<ul class="am-nav am-nav-pills am-topbar-nav">
+					<li class="am-active">
+						<a href="#">首页</a>
+					</li>
+					<li>
+						<a href="#">项目</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<div class="banner">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="assets/images/banner_01.png" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="assets/images/banner_02.png" alt="">
+					</div>
+				</div>
+				<!-- 如果需要分页器 -->
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+
+		<div class="product">
+			<div class="product_centent">
+				<img src="assets/images/product.png" alt="">
+				<div class="product_title">我们的产品</div>
+				<img src="assets/images/border_btm_img.png" alt="">
+			</div>
+
+			<div class="product_main">
+				<ul>
+					<li class="product_main_li am-fl">
+						<img src="assets/images/product_01.png" alt="">
+						<div class="product_main_title">行业B2B平台</div>
+						<div class="product_main_text">搭建不同行业的B2B平台，以交易为入口，提供数据、物流、信息、金融一体化服务。</div>
+						<a class="product_go" href="#">详情>></a>
+					</li>
+					<li class="product_main_li am-fl">
+						<img src="assets/images/product_02.png" alt="">
+						<div class="product_main_title">供应链管理服务平台</div>
+						<div class="product_main_text">基于对供应链经营、服务过程的管控，实现物流链、信息链、资金链的平台化、可视化和数字化，为用户带来业务增值。</div>
+						<a class="product_go" href="#">详情>></a>
+					</li>
+					<li class="product_main_li am-fl">
+						<img src="assets/images/product_03.png" alt="">
+						<div class="product_main_title">数据金融服务平台</div>
+						<div class="product_main_text">以产业数据连接、数据分析为基础，搭建风控模型，为企业提供实时的风险预测和监控服务，实现对风险的全面掌控。</div>
+						<a class="product_go" href="#">详情>></a>
+					</li>
+					<li class="product_main_li am-fl">
+						<img src="assets/images/product_04.png" alt="">
+						<div class="product_main_title">客户开发与服务平台</div>
+						<div class="product_main_text">建立平台与客户沟通的桥梁，达成企业与客户间在销售和服务上的交互，提供客户关系管理定制化服务模式，深度挖掘客户的商业价值。</div>
+						<a class="product_go" href="#">详情>></a>
+					</li>
+					<li class="product_main_li am-fr no_mar_right">
+						<img src="assets/images/product_05.png" alt="">
+						<div class="product_main_title">数据服务平台</div>
+						<div class="product_main_text">对行业的数据采集、清洗、加工、建模、分析、解读，多维度多角度的对行业、企业进行剖析，时刻掌握第一手情报，通过数据把握商机，降低行业、企业风险。</div>
+						<a class="product_go" href="#">详情>></a>
+					</li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+			<div class="product_centent product_margintop_80">
+				<img src="assets/images/solution.png" alt="">
+				<div class="product_title">解决方案</div>
+				<img src="assets/images/border_btm_img.png" alt="">
+			</div>
+		</div>
+
+		<div class="solution">
+			<div class="solution_main">
+				<ul class="solution_list am-fl">
+					<li class="solution_list_li solution_list_active solution_list_toggle">大贸易商</li>
+					<li class="solution_list_li solution_list_toggle">物流商</li>
+					<li class="solution_list_li solution_list_toggle">港口企业</li>
+					<li class="solution_list_li solution_list_toggle">资金机构</li>
+					<li class="solution_list_li solution_list_toggle">小贸易商</li>
+					<li class="solution_list_li solution_list_toggle">产业互联网平台</li>
+					<li class="solution_lookall">查看全部</li>
+				</ul>
+
+				<ul class="solution_right am-fr">
+					<li class=" solution_toggle">
+						<div class="solution_right_title">大贸易商解决方案</div>
+						<div class="solution_right_text">
+							为大型贸易企业提供产融平台服务，帮助用户提高资金的聚合力，获得更多的盈利点。
+							<a class="am-fr" href="#">查看详情</a>
+						</div>
+						<div class="solution_right_page">服务</div>
+						<ul class="solution_center">
+							<li class="solution_center_li">
+								<img src="assets/images/solution_01.png" />
+								<div class="solution_center_text">业务系统+风控系统服务</div>
+							</li>
+							<li class="solution_center_li">
+								<img src="assets/images/solution_02.png" />
+								<div class="solution_center_text">建设贸易产融平台</div>
+							</li>
+							<li class="solution_center_li">
+								<img src="assets/images/solution_03.png" />
+								<div class="solution_center_text">建设行业B2B平台</div>
+							</li>
+							<li class="solution_center_li no_mar_right">
+								<img src="assets/images/solution_04.png" />
+								<div class="solution_center_text">综合咨询方案服务</div>
+							</li>
+
+						</ul>
+						<div class="solution_right_page margin_top_50">增值服务</div>
+						<ul class="solution_center">
+							<li class="solution_center_li">
+								<img src="assets/images/solution_05.png" />
+								<div class="solution_center_text">对接资金机构</div>
+							</li>
+							<li class="solution_center_li">
+								<img src="assets/images/solution_06.png" />
+								<div class="solution_center_text">业务增值</div>
+							</li>
+							<li class="solution_center_li">
+								<img src="assets/images/solution_07.png" />
+								<div class="solution_center_text">拓展客户</div>
+							</li>
+							<li class="solution_center_li no_mar_right">
+								<img src="assets/images/solution_08.png" />
+								<div class="solution_center_text">行业数据AI操盘</div>
+							</li>
+
+						</ul>
+					</li>
+
+					<li class="am-hide solution_toggle">
+						<div class="solution_right_title">物流商解决方案</div>
+						<div class="solution_right_text">
+							为物流企业提供物流产融平台服务，帮助用户对接最优的资金资源。
+							<a class="am-fr" href="#">查看详情</a>
+						</div>
+						<div class="solution_right_page">服务</div>
+						<ul class="solution_center">
+							<li class="solution_center_li">
+								<img src="assets/images/solution_01.png" />
+								<div class="solution_center_text">物流系统服务+风控系统服务</div>
+							</li>
+							<li class="solution_center_li">
+								<img src="assets/images/solution_02.png" />
+								<div class="solution_center_text">建设物流产融平台</div>
+							</li>
+
+							<li class="solution_center_li no_mar_right">
+								<img src="assets/images/solution_04.png" />
+								<div class="solution_center_text">综合咨询方案服务</div>
+							</li>
+
+						</ul>
+						<div class="solution_right_page margin_top_50">增值服务</div>
+						<ul class="solution_center">
+							<li class="solution_center_li">
+								<img src="assets/images/solution_05.png" />
+								<div class="solution_center_text">对接资金机构</div>
+							</li>
+							<li class="solution_center_li">
+								<img src="assets/images/solution_06.png" />
+								<div class="solution_center_text">业务增值</div>
+							</li>
+							<li class="solution_center_li">
+								<img src="assets/images/solution_07.png" />
+								<div class="solution_center_text">拓展客户</div>
+							</li>
+							<li class="solution_center_li no_mar_right">
+								<img src="assets/images/solution_08.png" />
+								<div class="solution_center_text">行业数据AI操盘</div>
+							</li>
+
+						</ul>
+					</li>
+
+					<li class="am-hide solution_toggle">
+						<div class="solution_right_title">港口企业解决方案</div>
+						<div class="solution_right_text">
+							为港口企业提供产业互联网平台服务，帮助用户实现产业链条上的资源整合和利用。
+							<a class="am-fr" href="#">查看详情</a>
+						</div>
+						<div class="solution_right_page">服务</div>
+						<ul class="solution_center">
+							<li class="solution_center_li">
+								<img src="assets/images/solution_01.png" />
+								<div class="solution_center_text">供应链系统服务+风控系统服务</div>
+							</li>
+							<li class="solution_center_li">
+								<img src="assets/images/solution_02.png" />
+								<div class="solution_center_text">建设港口产融平台</div>
+							</li>
+							<li class="solution_center_li">
+								<img src="assets/images/solution_03.png" />
+								<div class="solution_center_text">建设港口互联网平台</div>
+							</li>
+							<li class="solution_center_li no_mar_right">
+								<img src="assets/images/solution_04.png" />
+								<div class="solution_center_text">综合咨询方案服务</div>
+							</li>
+
+						</ul>
+						<div class="solution_right_page margin_top_50">增值服务</div>
+						<ul class="solution_center">
+							<li class="solution_center_li">
+								<img src="assets/images/solution_05.png" />
+								<div class="solution_center_text">对接资金机构</div>
+							</li>
+							<li class="solution_center_li">
+								<img src="assets/images/solution_06.png" />
+								<div class="solution_center_text">业务增值</div>
+							</li>
+							<li class="solution_center_li">
+								<img src="assets/images/solution_07.png" />
+								<div class="solution_center_text">拓展客户</div>
+							</li>
+							<li class="solution_center_li no_mar_right">
+								<img src="assets/images/solution_08.png" />
+								<div class="solution_center_text">行业数据AI操盘</div>
+							</li>
+
+						</ul>
+					</li>
+
+					<li class="am-hide solution_toggle">
+						<div class="solution_right_title">资金机构解决方案</div>
+						<div class="solution_right_text">
+							为资金机构提供产融平台服务和数据服务，更加有效的管控风险，帮助更多客户解决资金需求。
+							<a class="am-fr" href="#">查看详情</a>
+						</div>
+						<div class="solution_right_page">服务</div>
+						<ul class="solution_center">
+							<li class="solution_center_li">
+								<img src="assets/images/solution_01.png" />
+								<div class="solution_center_text">供应链+智能物流+风控模型</div>
+							</li>
+							<li class="solution_center_li">
+								<img src="assets/images/solution_02.png" />
+								<div class="solution_center_text">建设公共产融平台</div>
+							</li>
+							<li class="solution_center_li">
+								<img src="assets/images/solution_03.png" />
+								<div class="solution_center_text">建设产业互联网平台</div>
+							</li>
+							<li class="solution_center_li no_mar_right">
+								<img src="assets/images/solution_04.png" />
+								<div class="solution_center_text">综合咨询方案服务</div>
+							</li>
+
+						</ul>
+						<div class="solution_right_page margin_top_50">增值服务</div>
+						<ul class="solution_center">
+							<li class="solution_center_li">
+								<img src="assets/images/solution_05.png" />
+								<div class="solution_center_text">对接资金机构</div>
+							</li>
+							<li class="solution_center_li">
+								<img src="assets/images/solution_06.png" />
+								<div class="solution_center_text">业务增值</div>
+							</li>
+							<li class="solution_center_li">
+								<img src="assets/images/solution_07.png" />
+								<div class="solution_center_text">拓展客户</div>
+							</li>
+							<li class="solution_center_li no_mar_right">
+								<img src="assets/images/solution_08.png" />
+								<div class="solution_center_text">行业数据AI操盘</div>
+							</li>
+
+						</ul>
+					</li>
+
+					<li class="am-hide solution_toggle">
+						<div class="solution_right_title">小贸易商解决方案</div>
+						<div class="solution_right_text">
+							为中小贸易企业提供公共产融平台服务，帮助用户对接资产端与资金端资源。
+							<a class="am-fr" href="#">查看详情</a>
+						</div>
+						<div class="solution_right_page">服务</div>
+						<ul class="solution_center">
+							<li class="solution_center_li">
+								<img src="assets/images/solution_09.png" />
+								<div class="solution_center_text">公共产融平台SAAS服务</div>
+							</li>
+
+							<li class="solution_center_li no_mar_right">
+								<img src="assets/images/solution_04.png" />
+								<div class="solution_center_text">综合咨询方案服务</div>
+							</li>
+
+						</ul>
+						<div class="solution_right_page margin_top_50">增值服务</div>
+						<ul class="solution_center">
+							<li class="solution_center_li">
+								<img src="assets/images/solution_05.png" />
+								<div class="solution_center_text">对接资金机构</div>
+							</li>
+							<li class="solution_center_li">
+								<img src="assets/images/solution_06.png" />
+								<div class="solution_center_text">业务增值</div>
+							</li>
+							<li class="solution_center_li">
+								<img src="assets/images/solution_07.png" />
+								<div class="solution_center_text">拓展客户</div>
+							</li>
+							<li class="solution_center_li no_mar_right">
+								<img src="assets/images/solution_08.png" />
+								<div class="solution_center_text">行业数据AI操盘</div>
+							</li>
+
+						</ul>
+					</li>
+
+					<li class="am-hide solution_toggle">
+						<div class="solution_right_title">产业互联网平台解决方案</div>
+						<div class="solution_right_text">
+							为产业互联网平台企业提供“平台+”服务，帮助用户进一步拓展客户资源，成为行业的庄家和操盘手。
+							<a class="am-fr" href="#">查看详情</a>
+						</div>
+						<div class="solution_right_page">服务</div>
+						<ul class="solution_center">
+							<li class="solution_center_li">
+								<img src="assets/images/solution_10.png" />
+								<div class="solution_center_text">产业互联网平台+服务</div>
+							</li>
+
+						</ul>
+						<div class="solution_right_page margin_top_50">增值服务</div>
+						<ul class="solution_center">
+							<li class="solution_center_li">
+								<img src="assets/images/solution_05.png" />
+								<div class="solution_center_text">对接资金机构</div>
+							</li>
+							<li class="solution_center_li">
+								<img src="assets/images/solution_06.png" />
+								<div class="solution_center_text">业务增值</div>
+							</li>
+							<li class="solution_center_li">
+								<img src="assets/images/solution_07.png" />
+								<div class="solution_center_text">拓展客户</div>
+							</li>
+							<li class="solution_center_li no_mar_right">
+								<img src="assets/images/solution_08.png" />
+								<div class="solution_center_text">行业数据AI操盘</div>
+							</li>
+
+						</ul>
+					</li>
+
+				</ul>
+
+				<div class="clear"></div>
+			</div>
+		</div>
+
+		<!--<div class="tonglan">
+    	<div class="tonglan_text">为客户提供一体化解决方案</div>
+    	<a class="tonglan_go" href="#">查看产品全景图</a>
+    </div>-->
+
+		<div class="partner">
+			<div class="product_centent product_margintop_60">
+				<img src="assets/images/partner.png" alt="">
+				<div class="product_title">合作伙伴</div>
+				<img src="assets/images/border_btm_img.png" alt="">
+			</div>
+			<table class="partner_tab" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><img src="assets/images/partner_01.png" /></td>
+					<td><img src="assets/images/partner_02.png" /></td>
+					<td><img src="assets/images/partner_03.png" /></td>
+					<td><img src="assets/images/partner_04.png" /></td>
+					<td><img src="assets/images/partner_05.png" /></td>
+				</tr>
+				<tr>
+					<td><img src="assets/images/partner_06.png" /></td>
+					<td><img src="assets/images/partner_07.png" /></td>
+					<td><img src="assets/images/partner_08.png" /></td>
+					<td><img src="assets/images/partner_09.png" /></td>
+					<td><img src="assets/images/partner_10.png" /></td>
+				</tr>
+				<tr>
+					<td colspan="2"><img src="assets/images/partner_11.png" /></td>
+					<td colspan="2"><img src="assets/images/partner_12.png" /></td>
+					<td><img src="assets/images/partner_13.png" /></td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="footer">
+			<div class="footer_top">
+				<div class="footer_mid">
+					<ul>
+						<li class="footer_bk_tel am-fl">
+							咨询电话<br /> 0411-84573070
+						</li>
+						<li class="footer_fenge am-fl"></li>
+						<li class="footer_bk_email am-fl">
+							邮箱<br /> service@sounddata.com
+						</li>
+						<li class="footer_fenge am-fl"></li>
+						<li class="footer_bk_time am-fl">
+							服务时间<br /> 周一至周五 9:00~18:00
+						</li>
+						<li class="footer_fenge am-fl"></li>
+						<li class="footer_bk_posi am-fl">
+							大连市高新园区软件园路1A-4号<br /> 软景中心1单元505
+						</li>
+						<li class="footer_erweima am-fr">
+							<div>
+								关注“链融云”<br /> 微信公众号
+							</div>
+						</li>
+						<li class="clear"></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer_bot">
+				<div class="footer_text">
+					链融数据科技（大连）有限公司 ｜ © 2016-2017 SoundData All rights reserved.
+					<a href="#">辽ICP备16015807号</a> ｜
+					<a href="#">隐私条款 >></a> ｜
+					<a href="#">服务条款</a> >>
+				</div>
+			</div>
+		</div>
+
+		<script src="assets/js/amazeui.min.js"></script>
+
+		<!--判断手机-->
+		<!--<script type="text/javascript">
+        var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");
+
+        var browser = navigator.userAgent.toLowerCase();
+
+        var isMobile = false;
+
+        for (var i = 0; i < mobileAgent.length; i++) {
+            if (browser.indexOf(mobileAgent[i]) != -1) {
+                isMobile = true;
+
+                //alert(mobileAgent[i]);
+
+                location.href = 'phone.html';
+
+                break;
+            }
+        }
+    </script>-->
+
+		<!--图片轮播-->
+		<script src="assets/js/swiper.min.js"></script>
+		<script>
+			var mySwiper = new Swiper('.swiper-container', {
+				loop: true,
+				autoplay: 5000,
+				// 如果需要分页器
+				pagination: '.swiper-pagination',
+
+				// 如果需要前进后退按钮
+				nextButton: '.swiper-button-next',
+				prevButton: '.swiper-button-prev',
+			})
+		</script>
+
+		<!--列表切换-->
+		<script>
+			$(function() {
+				$(".solution_list_toggle").click(function() {
+					$(".solution_list_toggle").removeClass("solution_list_active");
+					$(this).addClass("solution_list_active");
+					var this_index = $(this).index();
+					//              $(".solution_right").find('.solution_toggle').eq(this_index).show()
+					$(".solution_toggle").addClass("am-hide");
+					$(this).parent().siblings(".solution_right").find(".solution_toggle").eq(this_index).removeClass("am-hide")
+					//          	var this_img = this_index+1;
+					//          	$(".solution").css("background-image","url(assets/images/main_0"+this_img+".png)")
+					$(".solution").css("background-position", -1920 * this_index + "px")
+				})
+			})
+		</script>
+	</body>
+
 </html>
