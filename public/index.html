@@ -47,7 +47,7 @@
                 <li><a href="#">首页</a></li>
                 <li><a href="#">产品中心</a></li>
                 <li><a href="#">解决方案</a></li>
-                <li><a href="#">产品服务</a></li>
+                <li><a href="#">产融服务</a></li>
                 <li><a href="#">数据服务</a></li>
                 <li><a href="#">关于链融</a></li>
             </ul>
@@ -305,7 +305,7 @@
                 	<ul class="solution_center">
                 		<li class="solution_center_li">
                 			<img src="assets/images/solution_05.png"/>
-                			<div class="solution_center_text">对接资金机构</div>
+                			<div class="solution_center_text">对接资产方</div>
                 		</li>
                 		<li class="solution_center_li">
                 			<img src="assets/images/solution_06.png"/>
@@ -528,16 +528,15 @@
     <!--列表切换-->
     <script>
         $(function () {
-            $(".solution_list_toggle").click(function () {
+            $(".solution_list_toggle").hover(function () {
                 $(".solution_list_toggle").removeClass("solution_list_active");
                 $(this).addClass("solution_list_active");
                 var this_index = $(this).index();
-//              $(".solution_right").find('.solution_toggle').eq(this_index).show()
                 $(".solution_toggle").addClass("am-hide");
                 $(this).parent().siblings(".solution_right").find(".solution_toggle").eq(this_index).removeClass("am-hide")
 //          	var this_img = this_index+1;
 //          	$(".solution").css("background-image","url(assets/images/main_0"+this_img+".png)")
-				$(".solution").css("background-position",-1920*this_index+"px")
+				$(".solution").stop().animate({"background-position":-1920*this_index+"px"},1500)
             })
         })
     </script>
