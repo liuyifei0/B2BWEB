@@ -121,35 +121,38 @@ body{
 }
 
 .product_main_li{
-    /*width: 16rem;*/
+    /*width: 13rem;*/
     height:22rem;
     /*border:.1rem solid #dcdddd;*/
     background-color: #fff;
    -webkit-box-shadow: .1rem .1rem .2rem #ccc,-.1rem -.1rem .2rem #ccc;
    -moz-box-shadow: .1rem .1rem .2rem #ccc,-.1rem -.1rem .2rem #ccc;
    box-shadow: .1rem .1rem .2rem #ccc,-.1rem -.1rem .2rem #ccc;
+	padding-top: 1rem;
 }
 .product_main_li img{
     display: block;
     margin: 0 auto;
-   	width: 40%;
-   	height: 35%;
+   	width: 30%;
+   	height: 27%;
    	padding: 1rem 0;
+   	
 }
 .product_main_title{
     text-align: center;
     color: #006bd7;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight:600;
+    /*margin-top: 1rem;*/
 }
 .product_main_text{
     color: #727171;
-    font-size: 1rem;
+    font-size: .8rem;
     padding-left:8px;
     padding-right:7px;
     margin-top:6px;
     line-height: 1.4rem;
-    height: 8rem;
+    height: 9rem;
     /*border:1px solid red;*/
 }
 .product_go{
@@ -159,7 +162,7 @@ body{
 	border: .1rem solid #006bd7;
 	display: inline-block!important;
 	width: 6rem;
-	margin-left: 4rem;
+	margin-left: 3.3rem;
 	padding-left: .2rem;
 }
 
@@ -167,6 +170,7 @@ body{
 
 
 .solution{
+	width: 100%;
     height: 100%;
     background-image: url(../images/phone_main_leet.jpg);
     background-repeat: no-repeat;
@@ -403,6 +407,8 @@ body{
 	background-position:center left;
 	padding-left: 4rem;
 	background-size: contain;
+	font-size: .8rem!important;
+	background-origin: padding-box;
 }
 .footer_erweima div{
 	padding-top: 20px;
